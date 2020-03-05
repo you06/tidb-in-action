@@ -3,16 +3,14 @@ dist: trusty
 language: node_js
 node_js:
   - 12
-
-branches:
-  only:
-  - master
+cache: npm
 
 before_script:
   - npm install gitbook-cli -g
 
 script:
   - gitbook build .
+  - touch _book/.nojekyll
 
 deploy:
   provider: pages
