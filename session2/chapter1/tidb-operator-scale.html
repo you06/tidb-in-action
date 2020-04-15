@@ -17,6 +17,10 @@
     
             
                 
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-yahei/yahei.css">
+                
+            
+                
                 <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -60,7 +64,7 @@
     <link rel="next" href="tidb-upgrade.html" />
     
     
-    <link rel="prev" href="tiops-scale.html" />
+    <link rel="prev" href="tiup-cluster-scale.html" />
     
 
     </head>
@@ -108,6 +112,19 @@
             
                     
                     推荐序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../writer.html">
+            
+                <a href="../../writer.html">
+            
+                    
+                    作者名单
             
                 </a>
             
@@ -220,12 +237,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="2.4.1" data-path="../../session1/chapter4/region-balance.html">
+        <li class="chapter " data-level="2.4.1" data-path="../../session1/chapter4/scheduling-overview.html">
             
-                <a href="../../session1/chapter4/region-balance.html">
+                <a href="../../session1/chapter4/scheduling-overview.html">
             
                     
-                    4.1 空间均衡
+                    4.1 调度概述
             
                 </a>
             
@@ -233,25 +250,12 @@
             
         </li>
     
-        <li class="chapter " data-level="2.4.2" data-path="../../session1/chapter4/load-balance.html">
-            
-                <a href="../../session1/chapter4/load-balance.html">
-            
-                    
-                    4.2 负载均衡
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.4.3" data-path="../../session1/chapter4/elastic-scheduling.html">
+        <li class="chapter " data-level="2.4.2" data-path="../../session1/chapter4/elastic-scheduling.html">
             
                 <a href="../../session1/chapter4/elastic-scheduling.html">
             
                     
-                    4.3 弹性调度
+                    4.2 弹性调度
             
                 </a>
             
@@ -393,20 +397,7 @@
                 <a href="../../session1/chapter7/autorandom.html">
             
                     
-                    7.4 Auto Random
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="2.7.5" data-path="../../session1/chapter7/expression-index.html">
-            
-                <a href="../../session1/chapter7/expression-index.html">
-            
-                    
-                    7.5 Expression index
+                    7.4 AutoRandom
             
                 </a>
             
@@ -677,7 +668,7 @@
                 <a href="tiup-tiops.html">
             
                     
-                    1.1 TiUP & TiOps
+                    1.1 TiUP
             
                 </a>
             
@@ -712,12 +703,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.1.1.3" data-path="tiup-deployment.html">
+        <li class="chapter " data-level="3.1.1.3" data-path="tiup-cluster.html">
             
-                <a href="tiup-deployment.html">
+                <a href="tiup-cluster.html">
             
                     
-                    1.1.3 用 TiUP 部署生产环境集群
+                    1.1.3 TiUP cluster 简介
             
                 </a>
             
@@ -725,25 +716,12 @@
             
         </li>
     
-        <li class="chapter " data-level="3.1.1.4" data-path="tiops-intro.html">
+        <li class="chapter " data-level="3.1.1.4" data-path="tiup-cluster-deployment.html">
             
-                <a href="tiops-intro.html">
-            
-                    
-                    1.1.4 TiOps 简介
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="3.1.1.5" data-path="tiops-deployment.html">
-            
-                <a href="tiops-deployment.html">
+                <a href="tiup-cluster-deployment.html">
             
                     
-                    1.1.5 TiOps 部署生产环境集群
+                    1.1.4 TiUP cluster 部署生产环境集群
             
                 </a>
             
@@ -1067,12 +1045,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="3.1.3.1" data-path="tiops-scale.html">
+        <li class="chapter " data-level="3.1.3.1" data-path="tiup-cluster-scale.html">
             
-                <a href="tiops-scale.html">
+                <a href="tiup-cluster-scale.html">
             
                     
-                    1.3.1 基于 TiOps 的集群扩缩容
+                    1.3.1 基于 TiUP cluster 的集群扩缩容
             
                 </a>
             
@@ -1112,12 +1090,12 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="3.1.4.1" data-path="tiops-rolling-upgrade.html">
+        <li class="chapter " data-level="3.1.4.1" data-path="tiup-cluster-upgrade.html">
             
-                <a href="tiops-rolling-upgrade.html">
+                <a href="tiup-cluster-upgrade.html">
             
                     
-                    1.4.1 基于 TiOps 的集群滚动更新
+                    1.4.1 基于 TiUp cluster 的集群滚动更新
             
                 </a>
             
@@ -1394,9 +1372,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="4.1.1" data-path="../../session3/chapter1/sql-plan.html">
+        <li class="chapter " data-level="4.1.1" data-path="../../session3/chapter1/sql-execution-plan.html">
             
-                <a href="../../session3/chapter1/sql-plan.html">
+                <a href="../../session3/chapter1/sql-execution-plan.html">
             
                     
                     1.1 TiDB 执行计划概览
@@ -1407,12 +1385,51 @@
             
         </li>
     
-        <li class="chapter " data-level="4.1.2" data-path="../../session3/chapter1/sql-plan-management.html">
+        <li class="chapter " data-level="4.1.2" data-path="../../session3/chapter1/optimizer-summary.html">
+            
+                <a href="../../session3/chapter1/optimizer-summary.html">
+            
+                    
+                    1.2 优化器简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../../session3/chapter1/sql-plan-management.html">
             
                 <a href="../../session3/chapter1/sql-plan-management.html">
             
                     
-                    1.2 SQL Plan Management
+                    1.3 SQL Plan Management
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../../session3/chapter1/parameter-tuning.html">
+            
+                <a href="../../session3/chapter1/parameter-tuning.html">
+            
+                    
+                    1.4 参数调优指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../../session3/chapter1/memory-quota-execution-time-limit.html">
+            
+                <a href="../../session3/chapter1/memory-quota-execution-time-limit.html">
+            
+                    
+                    1.5 限制 SQL 内存使用和执行时间
             
                 </a>
             
@@ -1606,7 +1623,7 @@
                 <a href="../../session3/chapter3/statements.html">
             
                     
-                    3.7 Statements
+                    3.7 Statement Summary
             
                 </a>
             
@@ -1709,7 +1726,7 @@
                 <a href="../../session3/chapter5/recover-statements.html">
             
                     
-                    5.2 利用 Recover 命令秒恢复误删表
+                    5.2 利用 Recover/Flashback 命令秒恢复误删表
             
                 </a>
             
@@ -2072,7 +2089,7 @@
                 <a href="../../session4/chapter6/avoid-optimistic-lock-conflicts.html">
             
                     
-                    6.1.1 如何避免乐观锁模式下事务冲突
+                    6.1.1 乐观锁模式下的事务最佳实践
             
                 </a>
             
@@ -2177,9 +2194,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="5.6.4.1" data-path="../../session4/chapter6/patition-table-info.html">
+        <li class="chapter " data-level="5.6.4.1" data-path="../../session4/chapter6/partition-table-info.html">
             
-                <a href="../../session4/chapter6/patition-table-info.html">
+                <a href="../../session4/chapter6/partition-table-info.html">
             
                     
                     6.4.1 TiDB分区表简介
@@ -2190,9 +2207,9 @@
             
         </li>
     
-        <li class="chapter " data-level="5.6.4.2" data-path="../../session4/chapter6/patition-table-scenarios.html">
+        <li class="chapter " data-level="5.6.4.2" data-path="../../session4/chapter6/partition-table-scenarios.html">
             
-                <a href="../../session4/chapter6/patition-table-scenarios.html">
+                <a href="../../session4/chapter6/partition-table-scenarios.html">
             
                     
                     6.4.2 TiDB分区表使用场景
@@ -2208,7 +2225,20 @@
                 <a href="../../session4/chapter6/partition-table-practices.html">
             
                     
-                    6.4.3 TiDB分区表问题处理
+                    6.4.3 TiDB分区表最佳实践
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6.4.4" data-path="../../session4/chapter6/partition-table-problem-handling.html">
+            
+                <a href="../../session4/chapter6/partition-table-problem-handling.html">
+            
+                    
+                    6.4.4 TiDB分区表问题处理
             
                 </a>
             
@@ -2221,25 +2251,12 @@
             
         </li>
     
-        <li class="chapter " data-level="5.6.5" data-path="../../session4/chapter6/tidb-in-electric.html">
-            
-                <a href="../../session4/chapter6/tidb-in-electric.html">
-            
-                    
-                    6.5 TiDB 在电力行业的实践
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="5.6.6" data-path="../../session4/chapter6/tidb-in-enterprise-practices.html">
+        <li class="chapter " data-level="5.6.5" data-path="../../session4/chapter6/tidb-in-enterprise-practices.html">
             
                 <a href="../../session4/chapter6/tidb-in-enterprise-practices.html">
             
                     
-                    6.6 TiDB 在企业数据分级存储中的应用实践
+                    6.5 TiDB 在企业数据分级存储中的应用实践
             
                 </a>
             
@@ -2247,12 +2264,12 @@
             
         </li>
     
-        <li class="chapter " data-level="5.6.7" data-path="../../session4/chapter6/tidb-with-hbase-es-druid.html">
+        <li class="chapter " data-level="5.6.6" data-path="../../session4/chapter6/tidb-with-hbase-es-druid.html">
             
                 <a href="../../session4/chapter6/tidb-with-hbase-es-druid.html">
             
                     
-                    6.7 TiDB 与 HBase、ES、Druid 的数据交互实战
+                    6.6 TiDB 与 HBase、ES、Druid 的数据交互实战
             
                 </a>
             
@@ -2260,25 +2277,12 @@
             
         </li>
     
-        <li class="chapter " data-level="5.6.8" data-path="../../session4/chapter6/tidb-siku-grafana.html">
+        <li class="chapter " data-level="5.6.7" data-path="../../session4/chapter6/tidb-siku-grafana.html">
             
                 <a href="../../session4/chapter6/tidb-siku-grafana.html">
             
                     
-                    6.8 TiDB 与可视化展现 Saiku、Grafana 的集成应用
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="5.6.9" data-path="../../session4/chapter6/tidb-streaming-scheduler-tools.html">
-            
-                <a href="../../session4/chapter6/tidb-streaming-scheduler-tools.html">
-            
-                    
-                    6.9 流程调度工具与 TiSpark 的集成应用
+                    6.7 TiDB 与可视化展现 Saiku、Grafana 的集成应用
             
                 </a>
             
@@ -2357,6 +2361,19 @@
             
         </li>
     
+        <li class="chapter " data-level="5.7.5" data-path="../../session4/chapter7/compact.html">
+            
+                <a href="../../session4/chapter7/compact.html">
+            
+                    
+                    7.5 TiKV 磁盘空间占用与回收常见问题
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -2387,77 +2404,6 @@
             
 
             
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="5.8.1.1" data-path="../../session4/chapter8/memory-quota-execution-time-limit.md">
-            
-                <span>
-            
-                    
-                    8.1.1 限制 SQL 的内存使用和执行时间
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="5.8.1.2" data-path="../../session4/chapter8/transaction-retry-config.md">
-            
-                <span>
-            
-                    
-                    8.1.2 事务重试设置
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="5.8.1.3" data-path="../../session4/chapter8/speedup-query.md">
-            
-                <span>
-            
-                    
-                    8.1.3 提升请求并发度
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="5.8.1.4" data-path="../../session4/chapter8/compatible-with-mysql.md">
-            
-                <span>
-            
-                    
-                    8.1.4 与 MySQL 的常见兼容设置
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="5.8.1.5" data-path="../../session4/chapter8/other-tidb-common-config-optimize.md">
-            
-                <span>
-            
-                    
-                    8.1.5 其他常见优化配置
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
         </li>
     
         <li class="chapter " data-level="5.8.2" data-path="../../session4/chapter8/tikv-common-config-optimize.html">
@@ -2474,9 +2420,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="5.8.2.1" data-path="../../session4/chapter8/threadpool-optimize.md">
+        <li class="chapter " data-level="5.8.2.1" data-path="../../session4/chapter8/threadpool-optimize.html">
             
-                <span>
+                <a href="../../session4/chapter8/threadpool-optimize.html">
             
                     
                     8.2.1 TiKV 线程池优化
@@ -2487,9 +2433,9 @@
             
         </li>
     
-        <li class="chapter " data-level="5.8.2.2" data-path="../../session4/chapter8/massive-region-optimize.md">
+        <li class="chapter " data-level="5.8.2.2" data-path="../../session4/chapter8/massive-region-optimize.html">
             
-                <span>
+                <a href="../../session4/chapter8/massive-region-optimize.html">
             
                     
                     8.2.2 海量 Region 集群调优
@@ -2500,9 +2446,9 @@
             
         </li>
     
-        <li class="chapter " data-level="5.8.2.3" data-path="../../session4/chapter8/other-tikv-common-config-optimize.md">
+        <li class="chapter " data-level="5.8.2.3" data-path="../../session4/chapter8/other-tikv-common-config-optimize.html">
             
-                <span>
+                <a href="../../session4/chapter8/other-tikv-common-config-optimize.html">
             
                     
                     8.2.3 其他常见优化设置
@@ -2575,14 +2521,14 @@
         
         
     
-        <li class="chapter " data-level="6.1" data-path="../../session5/chapter1/open-source-governance.html">
+        <li class="chapter " data-level="6.1" >
             
-                <a href="../../session5/chapter1/open-source-governance.html">
+                <span>
             
                     
-                    1 TiDB 开源社区治理架构介绍
+                    1 TiDB 开源社区历史及其现状
             
-                </a>
+                </span>
             
 
             
@@ -2594,7 +2540,7 @@
                 <a href="../../session5/chapter1/a-brief-history-of-tidb.html">
             
                     
-                    1.1 TiDB 产品发展简史
+                    1.1 TiDB 开源社区现状及发展简史
             
                 </a>
             
@@ -2602,12 +2548,12 @@
             
         </li>
     
-        <li class="chapter " data-level="6.1.2" data-path="../../session5/chapter1/tikv-joined-cncf.html">
+        <li class="chapter " data-level="6.1.2" data-path="../../session5/chapter1/tidb-open-source-ecosystem.html">
             
-                <a href="../../session5/chapter1/tikv-joined-cncf.html">
+                <a href="../../session5/chapter1/tidb-open-source-ecosystem.html">
             
                     
-                    1.2 TiKV 捐献到 CNCF
+                    1.2 TiDB 开源生态介绍
             
                 </a>
             
@@ -2615,25 +2561,25 @@
             
         </li>
     
-        <li class="chapter " data-level="6.1.3" data-path="../../session5/chapter1/ecosystem-tools-community.html">
-            
-                <a href="../../session5/chapter1/ecosystem-tools-community.html">
-            
-                    
-                    1.3 周边生态工具融入到社区
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="6.1.4" data-path="../../session5/chapter1/community-governance.html">
+        <li class="chapter " data-level="6.1.3" data-path="../../session5/chapter1/community-governance.html">
             
                 <a href="../../session5/chapter1/community-governance.html">
             
                     
-                    1.4 社区治理框架
+                    1.3 TiDB 开源社区治理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" data-path="../../session5/chapter1/community-cooperations.html">
+            
+                <a href="../../session5/chapter1/community-cooperations.html">
+            
+                    
+                    1.4 TiDB 开源社区重要合作开发
             
                 </a>
             
@@ -2646,39 +2592,40 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2" data-path="../../session5/chapter2/tidb-open-source-ecosystem.html">
+        <li class="chapter " data-level="6.2" >
             
-                <a href="../../session5/chapter2/tidb-open-source-ecosystem.html">
+                <span>
             
                     
                     2 TiDB 开源生态
             
-                </a>
+                </span>
             
 
             
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="6.2.1" data-path="../../session5/chapter2/events.html">
+        <li class="chapter " data-level="6.2.1" >
             
-                <a href="../../session5/chapter2/events.html">
+                <span>
             
                     
                     2.1 社区重要活动介绍
             
-                </a>
+                </span>
             
 
             
-        </li>
+            <ul class="articles">
+                
     
-        <li class="chapter " data-level="6.2.2" data-path="../../session5/chapter2/community-cooperations.html">
+        <li class="chapter " data-level="6.2.1.1" data-path="../../session5/chapter2/devcon.html">
             
-                <a href="../../session5/chapter2/community-cooperations.html">
+                <a href="../../session5/chapter2/devcon.html">
             
                     
-                    2.2 社区重要合作开发（美团，知乎，高校）
+                    2.1.1 TiDB Devcon
             
                 </a>
             
@@ -2686,12 +2633,69 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2.3" data-path="../../session5/chapter2/tidb-user-group.html">
+        <li class="chapter " data-level="6.2.1.2" data-path="../../session5/chapter2/techday.html">
+            
+                <a href="../../session5/chapter2/techday.html">
+            
+                    
+                    2.1.2 TiDB TechDay
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.1.3" data-path="../../session5/chapter2/infra-meetup.html">
+            
+                <a href="../../session5/chapter2/infra-meetup.html">
+            
+                    
+                    2.1.3 Infra Meetup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.1.4" data-path="../../session5/chapter2/hackathon.html">
+            
+                <a href="../../session5/chapter2/hackathon.html">
+            
+                    
+                    2.1.4 TiDB Hackathon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.1.5" data-path="../../session5/chapter2/tug-event.html">
+            
+                <a href="../../session5/chapter2/tug-event.html">
+            
+                    
+                    2.1.5 TUG 企业行
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.2" data-path="../../session5/chapter2/tidb-user-group.html">
             
                 <a href="../../session5/chapter2/tidb-user-group.html">
             
                     
-                    2.3 TUG（TiDB User Group）
+                    2.2 TUG（TiDB User Group）
             
                 </a>
             
@@ -2699,12 +2703,12 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2.4" data-path="../../session5/chapter2/talent-plan.html">
+        <li class="chapter " data-level="6.2.3" data-path="../../session5/chapter2/talent-plan.html">
             
                 <a href="../../session5/chapter2/talent-plan.html">
             
                     
-                    2.4 Talent Plan
+                    2.3 Talent Plan
             
                 </a>
             
@@ -2712,12 +2716,12 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2.5" data-path="../../session5/chapter2/challenge-program.html">
+        <li class="chapter " data-level="6.2.4" data-path="../../session5/chapter2/challenge-program.html">
             
                 <a href="../../session5/chapter2/challenge-program.html">
             
                     
-                    2.5 Challenge Program
+                    2.4 Challenge Program
             
                 </a>
             
@@ -2725,12 +2729,12 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2.6" data-path="../../session5/chapter2/pingcap-incubator.html">
+        <li class="chapter " data-level="6.2.5" data-path="../../session5/chapter2/pingcap-incubator.html">
             
                 <a href="../../session5/chapter2/pingcap-incubator.html">
             
                     
-                    2.6 PingCAP Incubator
+                    2.5 PingCAP Incubator
             
                 </a>
             
@@ -2738,12 +2742,25 @@
             
         </li>
     
-        <li class="chapter " data-level="6.2.7" data-path="../../session5/chapter2/pingcap-university.html">
+        <li class="chapter " data-level="6.2.6" data-path="../../session5/chapter2/pingcap-university.html">
             
                 <a href="../../session5/chapter2/pingcap-university.html">
             
                     
-                    2.7 PingCAP University
+                    2.6 PingCAP University
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.7" data-path="../../session5/chapter2/asktug.html">
+            
+                <a href="../../session5/chapter2/asktug.html">
+            
+                    
+                    2.7 AskTUG
             
                 </a>
             
@@ -2766,19 +2783,6 @@
     
 
             </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="6.3" data-path="../../session5/chapter3/references.html">
-            
-                <a href="../../session5/chapter3/references.html">
-            
-                    
-                    3 一些有用的学习资料
-            
-                </a>
-            
-
             
         </li>
     
@@ -2847,7 +2851,91 @@
     
                                 <section class="normal markdown-section">
                                 
-                                
+                                <h1 id="132-&#x57FA;&#x4E8E;-tidb-operator-&#x7684;&#x96C6;&#x7FA4;&#x6269;&#x7F29;&#x5BB9;">1.3.2 &#x57FA;&#x4E8E; TiDB Operator &#x7684;&#x96C6;&#x7FA4;&#x6269;&#x7F29;&#x5BB9;</h1>
+<p>&#x672C;&#x8282;&#x4ECB;&#x7ECD;&#x5982;&#x4F55;&#x5BF9;&#x57FA;&#x4E8E; TiDB Operator &#x90E8;&#x7F72;&#x7684; TiDB &#x96C6;&#x7FA4;&#x8FDB;&#x884C;&#x6C34;&#x5E73;&#x548C;&#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;&#x3002;</p>
+<h2 id="1-&#x73AF;&#x5883;&#x51C6;&#x5907;">1. &#x73AF;&#x5883;&#x51C6;&#x5907;</h2>
+<ul>
+<li><p>&#x53C2;&#x8003;<a href="tidb-operator-local-deployment.html">&#x672C;&#x5730;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;</a>&#x6216;<a href="tidb-operator-deployment-private-tidb.html">&#x751F;&#x4EA7;&#x73AF;&#x5883;</a>&#x7684;&#x90E8;&#x7F72;&#x6307;&#x5F15;&#xFF0C;&#x4F7F;&#x7528; TiDB Operator &#x90E8;&#x7F72; TiDB &#x96C6;&#x7FA4;&#x3002;</p>
+</li>
+<li><p>&#x5728;&#x672C;&#x4F8B;&#x4E2D;&#xFF0C;release &#x7684;&#x540D;&#x79F0;&#x4E3A; <code>test</code>&#xFF0C;&#x5728; <code>dba-test</code> &#x547D;&#x540D;&#x7A7A;&#x95F4;&#x4E0B;&#xFF0C;chart &#x6587;&#x4EF6;&#x653E;&#x7F6E;&#x5728; <code>/home/charts/tidb-cluster</code> &#x8DEF;&#x5F84;&#x4E0B;&#x3002;&#x521D;&#x59CB; TiDB &#x96C6;&#x7FA4;&#x914D;&#x7F6E;&#xFF1A;</p>
+<ul>
+<li>3 &#x4E2A; PD &#x8282;&#x70B9;</li>
+<li>2 &#x4E2A; TiDB &#x8282;&#x70B9;</li>
+<li>3 &#x4E2A; TiKV &#x8282;&#x70B9;</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-&#x6C34;&#x5E73;&#x6269;&#x7F29;&#x5BB9;">2. &#x6C34;&#x5E73;&#x6269;&#x7F29;&#x5BB9;</h2>
+<h3 id="&#x6C34;&#x5E73;&#x6269;&#x7F29;&#x5BB9;&#x539F;&#x7406;">&#x6C34;&#x5E73;&#x6269;&#x7F29;&#x5BB9;&#x539F;&#x7406;</h3>
+<p>TiDB &#x96C6;&#x7FA4;&#x6C34;&#x5E73;&#x6269;&#x7F29;&#x5BB9;&#x64CD;&#x4F5C;&#x6307;&#x7684;&#x662F;&#x901A;&#x8FC7;&#x589E;&#x52A0;&#x6216;&#x51CF;&#x5C11;&#x8282;&#x70B9;&#x7684;&#x6570;&#x91CF;&#xFF0C;&#x6765;&#x8FBE;&#x5230;&#x96C6;&#x7FA4;&#x6269;&#x7F29;&#x5BB9;&#x7684;&#x76EE;&#x7684;&#x3002;&#x6269;&#x7F29;&#x5BB9; TiDB &#x96C6;&#x7FA4;&#x65F6;&#xFF0C;&#x4F1A;&#x6309;&#x7167;&#x586B;&#x5165;&#x7684; <code>replicas</code> &#x503C;&#xFF0C;&#x5BF9; PD&#x3001;TiKV&#x3001;TiDB &#x8FDB;&#x884C;&#x987A;&#x5E8F;&#x6269;&#x7F29;&#x5BB9;&#x64CD;&#x4F5C;&#x3002;&#x6269;&#x5BB9;&#x64CD;&#x4F5C;&#x6309;&#x7167;&#x8282;&#x70B9;&#x7F16;&#x53F7;&#x7531;&#x5C0F;&#x5230;&#x5927;&#x589E;&#x52A0;&#x8282;&#x70B9;&#xFF0C;&#x7F29;&#x5BB9;&#x64CD;&#x4F5C;&#x6309;&#x7167;&#x8282;&#x70B9;&#x7F16;&#x53F7;&#x7531;&#x5927;&#x5230;&#x5C0F;&#x5220;&#x9664;&#x8282;&#x70B9;&#x3002;</p>
+<h3 id="&#x6C34;&#x5E73;&#x6269;&#x7F29;&#x5BB9;&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">&#x6C34;&#x5E73;&#x6269;&#x7F29;&#x5BB9;&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h3>
+<p>(1) &#x4FEE;&#x6539;&#x96C6;&#x7FA4;&#x7684; <code>value.yaml</code> &#x6587;&#x4EF6;&#x4E2D;&#x7684; <code>pd.replicas</code>&#x3001;<code>tidb.replicas</code>&#x3001;<code>tikv.replicas</code> &#x81F3;&#x671F;&#x671B;&#x503C;&#xFF08;&#x672C;&#x4F8B;&#x4E2D;&#x4E3A; 3&#x3001;3&#x3001;4&#xFF09;&#x3002;</p>
+<p>(2) &#x6267;&#x884C; <code>helm upgrade</code> &#x547D;&#x4EE4;&#x8FDB;&#x884C;&#x6269;&#x7F29;&#x5BB9;&#xFF1A;</p>
+<pre><code>```shell
+# helm upgrade test /home/charts/tidb-cluster -f /home/charts/tidb-cluster/values.yaml
+Release &quot;test&quot; has been upgraded. Happy Helming!
+LAST DEPLOYED: Sun Mar  8 15:39:57 2020
+NAMESPACE: dba-test
+STATUS: DEPLOYED
+```
+</code></pre><p>(3) &#x67E5;&#x770B;&#x96C6;&#x7FA4;&#x6C34;&#x5E73;&#x6269;&#x7F29;&#x5BB9;&#x72B6;&#x6001;&#xFF1A;</p>
+<pre><code>```shell
+# watch kubectl get po -n dba-test
+```
+
+&#x5F53;&#x6240;&#x6709;&#x7EC4;&#x4EF6;&#x7684; Pod &#x6570;&#x91CF;&#x90FD;&#x8FBE;&#x5230;&#x4E86;&#x9884;&#x8BBE;&#x503C;&#xFF08;&#x672C;&#x4F8B;&#x4E2D;&#x4E3A; 3 &#x4E2A; PD &#x8282;&#x70B9;&#x3001;3 &#x4E2A; TiDB &#x8282;&#x70B9;&#x3001;4 &#x4E2A; TiKV &#x8282;&#x70B9;&#xFF09;&#xFF0C;&#x5E76;&#x4E14;&#x90FD;&#x8FDB;&#x5165;  `Running` &#x72B6;&#x6001;&#x540E;&#xFF0C;&#x6C34;&#x5E73;&#x6269;&#x7F29;&#x5BB9;&#x5B8C;&#x6210;&#x3002;
+
+```shell
+NAME                              READY   STATUS    RESTARTS   AGE
+test-discovery-668b48577c-zw4jh   1/1     Running   0          116m
+test-monitor-86797cd996-9ggfh     3/3     Running   0          116m
+test-pd-0                         1/1     Running   0          116m
+test-pd-1                         1/1     Running   0          116m
+test-pd-2                         1/1     Running   1          116m
+test-tidb-0                       2/2     Running   0          112m
+test-tidb-1                       2/2     Running   0          112m
+test-tidb-2                       2/2     Running   0          2m52s
+test-tikv-0                       1/1     Running   0          114m
+test-tikv-1                       1/1     Running   0          114m
+test-tikv-2                       1/1     Running   0          114m
+test-tikv-3                       1/1     Running   0          2m52s
+```
+</code></pre><blockquote>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li>PD&#x3001;TiKV &#x7EC4;&#x4EF6;&#x5728;&#x6EDA;&#x52A8;&#x5347;&#x7EA7;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#x4E0D;&#x4F1A;&#x89E6;&#x53D1;&#x6269;&#x7F29;&#x5BB9;&#x64CD;&#x4F5C;&#x3002;</li>
+<li>TiKV &#x7EC4;&#x4EF6;&#x5728;&#x7F29;&#x5BB9;&#x8FC7;&#x7A0B;&#x4E2D;&#x4F1A;&#x8C03;&#x7528; PD &#x63A5;&#x53E3;&#x5C06;&#x5BF9;&#x5E94; TiKV &#x6807;&#x8BB0;&#x4E3A;&#x4E0B;&#x7EBF;&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x5176;&#x4E0A;&#x6240;&#x6709; Region &#x8FC1;&#x79FB;&#x5230;&#x5176;&#x5B83; TiKV &#x8282;&#x70B9;&#xFF0C;&#x5728;&#x6570;&#x636E;&#x8FC1;&#x79FB;&#x671F;&#x95F4; TiKV Pod &#x4F9D;&#x7136;&#x662F; <code>Running</code> &#x72B6;&#x6001;&#xFF0C;&#x6570;&#x636E;&#x8FC1;&#x79FB;&#x5B8C;&#x6210;&#x540E;&#x5BF9;&#x5E94; Pod &#x624D;&#x4F1A;&#x88AB;&#x5220;&#x9664;&#xFF0C;&#x7F29;&#x5BB9;&#x65F6;&#x95F4;&#x4E0E;&#x5F85;&#x7F29;&#x5BB9;&#x7684; TiKV &#x4E0A;&#x7684;&#x6570;&#x636E;&#x91CF;&#x6709;&#x5173;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; <code>kubectl get tidbcluster -n &lt;namespace&gt; &lt;release-name&gt; -o json | jq &apos;.status.tikv.stores&apos;</code> &#x67E5;&#x770B; TiKV &#x662F;&#x5426;&#x5904;&#x4E8E;&#x4E0B;&#x7EBF; <code>Offline</code> &#x72B6;&#x6001;&#x3002;</li>
+<li>PD&#x3001;TiKV &#x7EC4;&#x4EF6;&#x5728;&#x7F29;&#x5BB9;&#x8FC7;&#x7A0B;&#x4E2D;&#x88AB;&#x5220;&#x9664;&#x7684;&#x8282;&#x70B9;&#x7684; PVC &#x4F1A;&#x4FDD;&#x7559;&#xFF0C;&#x5E76;&#x4E14;&#x7531;&#x4E8E; PV &#x7684; <code>Reclaim Policy</code> &#x8BBE;&#x7F6E;&#x4E3A; <code>Retain</code>&#xFF0C;&#x5373;&#x4F7F; PVC &#x88AB;&#x5220;&#x9664;&#xFF0C;&#x6570;&#x636E;&#x4F9D;&#x7136;&#x53EF;&#x4EE5;&#x627E;&#x56DE;&#x3002;</li>
+<li>TiKV &#x7EC4;&#x4EF6;&#x4E0D;&#x652F;&#x6301;&#x5728;&#x7F29;&#x5BB9;&#x8FC7;&#x7A0B;&#x4E2D;&#x8FDB;&#x884C;&#x6269;&#x5BB9;&#x64CD;&#x4F5C;&#xFF0C;&#x5F3A;&#x5236;&#x6267;&#x884C;&#x6B64;&#x64CD;&#x4F5C;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x96C6;&#x7FA4;&#x72B6;&#x6001;&#x5F02;&#x5E38;&#x3002;&#x5047;&#x5982;&#x5F02;&#x5E38;&#x5DF2;&#x7ECF;&#x53D1;&#x751F;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003; <a href="https://pingcap.com/docs-cn/stable/tidb-in-kubernetes/troubleshoot#tikv-store-&#x5F02;&#x5E38;&#x8FDB;&#x5165;-tombstone-&#x72B6;&#x6001;" target="_blank">TiKV Store &#x5F02;&#x5E38;&#x8FDB;&#x5165; Tombstone &#x72B6;&#x6001;</a> &#x8FDB;&#x884C;&#x89E3;&#x51B3;&#x3002;</li>
+</ul>
+</blockquote>
+<h2 id="3-&#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;">3. &#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;</h2>
+<h3 id="&#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;&#x539F;&#x7406;">&#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;&#x539F;&#x7406;</h3>
+<p>&#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;&#x64CD;&#x4F5C;&#x6307;&#x7684;&#x662F;&#x901A;&#x8FC7;&#x589E;&#x52A0;&#x6216;&#x51CF;&#x5C11;&#x8282;&#x70B9;&#x7684;&#x8D44;&#x6E90;&#x9650;&#x5236;&#xFF0C;&#x6765;&#x8FBE;&#x5230;&#x96C6;&#x7FA4;&#x6269;&#x7F29;&#x5BB9;&#x7684;&#x76EE;&#x7684;&#x3002;&#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;&#x672C;&#x8D28;&#x4E0A;&#x662F;&#x6309;&#x7167;&#x8282;&#x70B9;&#x7F16;&#x53F7;&#x7531;&#x5927;&#x5230;&#x5C0F;&#x7684;&#x987A;&#x5E8F;&#xFF0C;&#x6EDA;&#x52A8;&#x5347;&#x7EA7;&#x8282;&#x70B9;&#x7684;&#x8FC7;&#x7A0B;&#x3002;</p>
+<h3 id="&#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">&#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h3>
+<p>(1) &#x4FEE;&#x6539; <code>values.yaml</code> &#x6587;&#x4EF6;&#x4E2D;&#x7684; <code>tidb.resources</code>&#x3001;<code>tikv.resources</code>&#x3001;<code>pd.resources</code> &#x81F3;&#x671F;&#x671B;&#x503C;&#x3002;</p>
+<p>(2) &#x6267;&#x884C; <code>helm upgrade</code> &#x547D;&#x4EE4;&#x8FDB;&#x884C;&#x5347;&#x7EA7;&#xFF1A;</p>
+<pre><code>```shell
+# helm upgrade test /home/charts/tidb-cluster -f /home/charts/tidb-cluster/values.yaml
+Release &quot;test&quot; has been upgraded. Happy Helming!
+LAST DEPLOYED: Sun Mar  8 15:57:03 2020
+NAMESPACE: dba-test
+STATUS: DEPLOYED
+```
+</code></pre><p>(3) &#x67E5;&#x770B;&#x5347;&#x7EA7;&#x8FDB;&#x5EA6;&#xFF1A;</p>
+<pre><code>```shell
+# watch kubectl -n &lt;namespace&gt; get pod -o wide
+```
+
+&#x5F53;&#x6240;&#x6709; Pod &#x90FD;&#x91CD;&#x5EFA;&#x5B8C;&#x6BD5;&#x8FDB;&#x5165; `Running` &#x72B6;&#x6001;&#x540E;&#xFF0C;&#x5782;&#x76F4;&#x6269;&#x7F29;&#x5BB9;&#x5B8C;&#x6210;&#x3002;
+</code></pre><blockquote>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong></p>
+<ul>
+<li>&#x5982;&#x679C;&#x5728;&#x5782;&#x76F4;&#x6269;&#x5BB9;&#x65F6;&#x4FEE;&#x6539;&#x4E86;&#x8D44;&#x6E90;&#x7684; <code>requests</code> &#x5B57;&#x6BB5;&#xFF0C;&#x7531;&#x4E8E; PD&#x3001;TiKV &#x4F7F;&#x7528;&#x4E86; <code>Local PV</code>&#xFF0C;&#x5347;&#x7EA7;&#x540E;&#x8FD8;&#x9700;&#x8981;&#x8C03;&#x5EA6;&#x56DE;&#x539F;&#x8282;&#x70B9;&#xFF0C;&#x5982;&#x679C;&#x539F;&#x8282;&#x70B9;&#x8D44;&#x6E90;&#x4E0D;&#x591F;&#xFF0C;&#x5219;&#x4F1A;&#x5BFC;&#x81F4; Pod &#x4E00;&#x76F4;&#x5904;&#x4E8E; <code>Pending</code> &#x72B6;&#x6001;&#x800C;&#x5F71;&#x54CD;&#x670D;&#x52A1;&#x3002;</li>
+<li>TiDB &#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x53EF;&#x6C34;&#x5E73;&#x6269;&#x5C55;&#x7684;&#x6570;&#x636E;&#x5E93;&#xFF0C;&#x63A8;&#x8350;&#x901A;&#x8FC7;&#x589E;&#x52A0;&#x8282;&#x70B9;&#x4E2A;&#x6570;&#x53D1;&#x6325; TiDB &#x96C6;&#x7FA4;&#x53EF;&#x6C34;&#x5E73;&#x6269;&#x5C55;&#x7684;&#x4F18;&#x52BF;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x7C7B;&#x4F3C;&#x4F20;&#x7EDF;&#x6570;&#x636E;&#x5E93;&#x5347;&#x7EA7;&#x8282;&#x70B9;&#x786C;&#x4EF6;&#x914D;&#x7F6E;&#x6765;&#x5B9E;&#x73B0;&#x5782;&#x76F4;&#x6269;&#x5BB9;&#x3002;</li>
+</ul>
+</blockquote>
+<script src="../../gitbook_plugin_analytics.js"></script>
                                 
                                 </section>
                             
@@ -2874,7 +2962,7 @@
 
             
                 
-                <a href="tiops-scale.html" class="navigation navigation-prev " aria-label="Previous page: 1.3.1 基于 TiOps 的集群扩缩容">
+                <a href="tiup-cluster-scale.html" class="navigation navigation-prev " aria-label="Previous page: 1.3.1 基于 TiUP cluster 的集群扩缩容">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
@@ -2890,7 +2978,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1.3.2 基于 TiDB-Operator 的集群扩缩容","level":"3.1.3.2","depth":3,"next":{"title":"1.4 集群版本升级","level":"3.1.4","depth":2,"path":"session2/chapter1/tidb-upgrade.md","ref":"session2/chapter1/tidb-upgrade.md","articles":[{"title":"1.4.1 基于 TiOps 的集群滚动更新","level":"3.1.4.1","depth":3,"path":"session2/chapter1/tiops-rolling-upgrade.md","ref":"session2/chapter1/tiops-rolling-upgrade.md","articles":[]},{"title":"1.4.2 基于 TiDB-Operator 的集群滚动更新","level":"3.1.4.2","depth":3,"path":"session2/chapter1/tidb-operator-rolling-upgrade.md","ref":"session2/chapter1/tidb-operator-rolling-upgrade.md","articles":[]}]},"previous":{"title":"1.3.1 基于 TiOps 的集群扩缩容","level":"3.1.3.1","depth":3,"path":"session2/chapter1/tiops-scale.md","ref":"session2/chapter1/tiops-scale.md","articles":[]},"dir":"neutral"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"session2/chapter1/tidb-operator-scale.md","mtime":"2020-03-07T09:48:10.521Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-07T09:48:48.397Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"1.3.2 基于 TiDB-Operator 的集群扩缩容","level":"3.1.3.2","depth":3,"next":{"title":"1.4 集群版本升级","level":"3.1.4","depth":2,"path":"session2/chapter1/tidb-upgrade.md","ref":"session2/chapter1/tidb-upgrade.md","articles":[{"title":"1.4.1 基于 TiUp cluster 的集群滚动更新","level":"3.1.4.1","depth":3,"path":"session2/chapter1/tiup-cluster-upgrade.md","ref":"session2/chapter1/tiup-cluster-upgrade.md","articles":[]},{"title":"1.4.2 基于 TiDB-Operator 的集群滚动更新","level":"3.1.4.2","depth":3,"path":"session2/chapter1/tidb-operator-rolling-upgrade.md","ref":"session2/chapter1/tidb-operator-rolling-upgrade.md","articles":[]}]},"previous":{"title":"1.3.1 基于 TiUP cluster 的集群扩缩容","level":"3.1.3.1","depth":3,"path":"session2/chapter1/tiup-cluster-scale.md","ref":"session2/chapter1/tiup-cluster-scale.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["analytics","yahei"],"pluginsConfig":{"analytics":{"google":"UA-160169257-1"},"yahei":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"session2/chapter1/tidb-operator-scale.md","mtime":"2020-04-15T09:57:19.127Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-15T09:58:24.946Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
